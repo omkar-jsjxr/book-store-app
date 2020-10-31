@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:text="Add new Book"
+        android:textStyle="bold"
+
+        />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/linear_category"
+      android:layout_below="@+id/slogan_category"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="45dp"
+      android:gravity="center"
+      android:orientation="vertical">
+
+      <Button
+          android:id="@+id/cat1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="action" />
+      <Button
+          android:id="@+id/cat2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="adventure" />
+
+      <Button
+          android:id="@+id/cat3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="comedy" />
+      <Button
+          android:id="@+id/cat4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Biography" />
+      <Button
+          android:id="@+id/cat5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="poetry" />
+      <Button
+          android:id="@+id/cat6"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="science" />
+      <Button
+          android:id="@+id/cat7"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="history" />
+      <Button
+          android:id="@+id/cat8"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="maths" />
+      <Button
+          android:id="@+id/cat9"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="story" />
+      <Button
+          android:id="@+id/cat10"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="cooking" />
+      <Button
+          android:id="@+id/cat11"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="thory" />
+      <Button
+          android:id="@+id/cat12"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="coding" />
+      <Button
+          android:id="@+id/cat13"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="arts" />
+      <Button
+          android:id="@+id/cat14"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="romance" />
+      <Button
+          android:id="@+id/cat15"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="fairy tales" />
+  </LinearLayout>
+</RelativeLayout>
