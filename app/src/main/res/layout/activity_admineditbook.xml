@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Admin.AdmineditbookActivity"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/book_image_edit"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Description"
+            android:layout_below="@+id/book_name_edit"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/inputs_design"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:id="@+id/book_desc_edit"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Price"
+            android:layout_below="@+id/book_desc_edit"
+            android:textSize="16dp"
+            android:background="@drawable/inputs_design"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:id="@+id/book_price_edit"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply Changes"
+            android:textStyle="bold"
+            android:layout_below="@+id/book_price_edit"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#F6F4F8"
+            android:background="@drawable/buttons1"
+            android:padding="12dp"
+            android:layout_margin="9dp"
+            android:id="@+id/book_editbtn"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book Name"
+            android:layout_below="@+id/book_image_edit"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/inputs_design"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:id="@+id/book_name_edit"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete This Book"
+            android:textStyle="bold"
+            android:layout_below="@+id/book_editbtn"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#F6F4F8"
+            android:background="@drawable/buttons1"
+            android:padding="12dp"
+            android:layout_margin="9dp"
+            android:id="@+id/delete_book_btn"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

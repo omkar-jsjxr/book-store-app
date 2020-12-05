@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0E0E0E"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminsignupgotoActivity">
+
+
+    <EditText
+        android:id="@+id/gotoadmin_signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#F7F6F8"
+        android:layout_marginTop="180dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/inputs_design"
+        android:padding="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Enter Password to go to Admin Signup"
+        android:textColorHint="#F7F6FA"
+        />
+
+    <Button
+        android:id="@+id/gotoadminsignup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttons1"
+        android:padding="20dp"
+        android:text=" Go to Admin Signup"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/gotoadmin_signup_password"
+        android:textAllCaps="false"
+        android:textColor="#FAF2F2"
+        android:textSize="18sp" />
+</RelativeLayout>

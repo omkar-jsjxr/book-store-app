@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".Enduser.LoginActivity"
     android:background="#131313">
     <ImageView
         android:id="@+id/login_logo"
@@ -50,20 +50,7 @@
         android:textColorHint="#F7F6FA"
         />
 
-        <androidx.appcompat.widget.AppCompatCheckBox
-            android:id="@+id/remember_checkbox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-            android:layout_marginLeft="10dp"
-            android:text="Remember Me"
-            android:textColor="#F4F3F8"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:layout_below="@id/login_password"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/inputs_design"
-            />
+
 
 
     <TextView
@@ -80,6 +67,20 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
+        <com.rey.material.widget.CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rem_me"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:text="Remember Me"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/login_password"
+            android:textStyle="bold"
+            android:textColor="#F2F0F3"
+
+            />
     <Button
         android:id="@+id/login_btn"
         android:layout_width="363dp"
@@ -116,7 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:layout_below="@+id/remember_checkbox"
+        android:layout_below="@+id/forgot_password"
         android:text="I'm user"
         android:layout_marginTop="8dp"
         android:textColor="#F0EEF3"

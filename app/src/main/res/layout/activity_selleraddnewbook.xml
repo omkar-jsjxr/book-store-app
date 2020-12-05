@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seller.SelleraddnewbookActivity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:id="@+id/select_book"
+        android:scaleType="centerCrop"
+        android:cropToPadding="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/select_product_image"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_name"
+        android:layout_below="@+id/select_book"
+        android:inputType="textMultiLine"
+        android:hint="Book Name"
+        android:padding="20dp"
+        android:background="@drawable/inputs_design"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_description"
+        android:layout_below="@+id/book_name"
+        android:inputType="textMultiLine"
+        android:hint="Book Description"
+        android:padding="20dp"
+        android:background="@drawable/inputs_design"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_price"
+        android:layout_below="@+id/book_description"
+        android:inputType="textMultiLine"
+        android:hint="Book Price(in RS.)"
+        android:padding="20dp"
+        android:background="@drawable/inputs_design"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_bookbtn"
+        android:layout_below="@+id/book_price"
+        android:background="@drawable/buttons1"
+        android:layout_marginRight="40dp"
+        android:text="Add Book"
+        android:textColor="#F0EFF3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+
+        />
+</RelativeLayout>

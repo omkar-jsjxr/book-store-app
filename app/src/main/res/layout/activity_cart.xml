@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enduser.CartActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/cart_rel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total price"
+            android:id="@+id/total_price"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FAF7FB"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/msg1"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:text="Congratulations, your order is placed"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cart_list"
+        android:layout_below="@+id/cart_rel"
+        android:layout_above="@+id/next_btn"
+
+        ></androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next_btn"
+        android:textColor="#F9F8FA"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+
+        android:textStyle="bold"
+        android:background="@drawable/buttons1"
+
+        />
+</RelativeLayout>

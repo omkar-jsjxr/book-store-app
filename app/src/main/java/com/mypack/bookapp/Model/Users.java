@@ -1,23 +1,25 @@
 package com.mypack.bookapp.Model;
 
 public class Users {
-    private String Phone_no,Password,Full_Name;
+    private String Phone,Password,Name,image,address;
 
     public Users() {
     }
 
-    public Users(String phone_no, String password, String full_name) {
-        Phone_no = phone_no;
+    public Users(String phone, String password, String name, String image, String address) {
+        Phone = phone;
         Password = password;
-        Full_Name = full_name;
+        Name = name;
+        this.image = image;
+        this.address = address;
     }
 
-    public String getPhone_no() {
-        return Phone_no;
+    public String getPhone() {
+        return Phone;
     }
 
-    public void setPhone_no(String phone_no) {
-        Phone_no = phone_no;
+    public void setPhone(String phone) {
+        Phone = phone;
     }
 
     public String getPassword() {
@@ -28,11 +30,27 @@ public class Users {
         Password = password;
     }
 
-    public String getFull_name() {
-        return Full_Name;
+    public String getName() {
+        return Name;
     }
 
-    public void setFull_name(String full_name) {
-        Full_Name = full_name;
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

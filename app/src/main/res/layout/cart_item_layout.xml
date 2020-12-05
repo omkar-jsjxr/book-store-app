@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Book Name"
+            android:id="@+id/cart_bookname"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FBF7FD"
+            />
+
+        <TextView
+            android:id="@+id/cart_bookquant"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Book Quantity"
+            android:textAlignment="viewEnd"
+            android:textColor="#FBF7FD"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/cart_bookprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Price"
+            android:textStyle="bold"
+            android:layout_below="@+id/cart_bookquant"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FBF7FD"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
